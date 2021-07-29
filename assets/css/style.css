@@ -1,0 +1,105 @@
+body
+ {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 0, 0);
+    background-image: url(../images/sky_clouds_dark_143634_1280x720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+.navbar{
+    background: #8a028a;
+    /* height: 70px; */
+    
+    box-shadow: 0 3px 6px rgba(70, 1, 58, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.myprofilbox{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+   
+    
+}
+.btn-primary{
+    background: rgb(4, 100, 145);
+    font-size: 20px;
+    text-align:center ;
+}
+
+
+
+/* .profil-bg {
+    height: 450px; */
+    /* background-image: url(../images/scarf_background.jpg);
+    background-size: cover; */
+
+/* } */
+
+.profil-display {
+    background: rgba(243, 189, 231, 0.7);
+    margin-top: 15%;
+    margin-bottom: 60px;
+    /* position: relative; */
+
+    box-shadow: 0 3px 6px rgba(51, 30, 30, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+
+/* .profil-display p {
+    padding-left: 250px;
+    ;
+} */
+
+.middle-block {
+    /*   height: 350px;
+  background-image: url(../images/scarf_background.jpg);
+    background-size: cover; */
+}
+
+.profil-img {
+    /* position: absolute;
+    top: 25px; */
+    /* left: 25px; */
+    top: 25px;
+}
+
+.my-card {
+    height: 502px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.contact-img,
+.contact-form {
+    background: #eee;
+    margin-bottom: 120px;
+}
+
+.contact-img img {
+    width: 100%;
+}
+
+.footer{
+    background:  #a509a5;
+    text-align: center;
+    font-size: 1em;
+    height: 80px;
+    line-height: 80px;
+    position:fixed;
+    bottom: -15px;
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .myprofil {
+      /* display: flex;
+      flex-direction: column ;
+      background:green; */
+      padding-top: 40px;
+    }
+  }
+
