@@ -2,7 +2,7 @@ body
  {
     font-family:  Georgia, 'Times New Roman', Times, serif;
     color: rgb(5, 0, 0);
-    background-image: url(../images/sky_clouds_dark_143634_1280x720.jpg);
+    background-image: url(../images/sky.cloud.image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,7 +10,7 @@ body
 
 }
 .navbar{
-    background: #8a028a;
+    background: rgba(243, 189, 231, 0.7);
     /* height: 70px; */
     
     box-shadow: 0 3px 6px rgba(70, 1, 58, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -24,7 +24,7 @@ body
     
 }
 .btn-primary{
-    background: rgb(4, 100, 145);
+    background:#A2C7E5;
     font-size: 20px;
     text-align:center ;
 }
@@ -33,7 +33,7 @@ body
 
 /* .profil-bg {
     height: 450px; */
-    /* background-image: url(../images/scarf_background.jpg);
+    /* background-image: url(../images/Portfolio.Image.png);
     background-size: cover; */
 
 /* } */
@@ -56,7 +56,7 @@ body
 
 .middle-block {
     /*   height: 350px;
-  background-image: url(../images/scarf_background.jpg);
+  background-image: url(../images/Portfolio.Image.png);
     background-size: cover; */
 }
 
